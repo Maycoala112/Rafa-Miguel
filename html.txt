@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafa Miguel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Rafa Miguel</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Álbuns</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Página Inicial -->
+  <section id="home">
+    <div class="container">
+      <h2>Bem-vindo(a)</h2>
+      <p>Explore os registros visuais que capturam sentimentos, histórias e momentos únicos através da lente de Rafa Miguel.</p>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre Rafa</h2>
+      <p>Sou Rafa Miguel, fotógrafo apaixonado por eternizar momentos. Cada clique é uma forma de ver o mundo com mais sensibilidade, luz e poesia.</p>
+    </div>
+  </section>
+
+  <!-- Galeria de Fotos -->
+  <section id="galeria">
+    <div class="container">
+      <h2>Álbuns</h2>
+      <div class="gallery">
+        <img src="img/foto1.jpg" alt="Foto 1">
+        <img src="img/foto2.jpg" alt="Foto 2">
+        <img src="img/foto3.jpg" alt="Foto 3">
+        <!-- Adicione mais imagens aqui -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Você pode entrar em contato pelo e-mail: <a href="mailto:rafa.miguel@email.com">rafa.miguel@email.com</a></p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Rafa Miguel. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
