@@ -1,0 +1,758 @@
+/*menu*/
+/*#header .scrollbar .scrollbar-content-inner,
+#header .scrollbar .track .scrollbar-track-inner .thumb,
+#header #menu-left-scrollbar-thumb-inner {
+    background: #ffffff;
+}*/
+
+.loader-spinner {
+    background-color: #000000;
+}
+
+.load-more-fade-effect {
+
+    background: -moz-linear-gradient(to bottom, rgba(199, 197, 214,0) 0%, rgba(199, 197, 214, 0.7) 65%, rgba(199, 197, 214, 1) 90%);
+    background: -webkit-linear-gradient(to bottom, rgba(199, 197, 214,0) 0%, rgba(199, 197, 214, 0.7) 65%, rgba(199, 197, 214, 1) 90%);
+    background: -webkit-linear-gradient(to bottom, rgba(199, 197, 214,0) 0%, rgba(199, 197, 214, 0.7) 65%, rgba(199, 197, 214, 1) 90%);
+    background: -o-linear-gradient(to bottom, rgba(199, 197, 214,0) 0%, rgba(199, 197, 214, 0.7) 65%, rgba(199, 197, 214, 1) 90%);
+    background: -ms-linear-gradient(to bottom, rgba(199, 197, 214,0) 0%, rgba(199, 197, 214, 0.7) 65%, rgba(199, 197, 214, 1) 90%);
+    background: linear-gradient(to bottom, rgba(199, 197, 214,0) 0%, rgba(199, 197, 214, 0.7) 65%, rgba(199, 197, 214, 1) 90%);
+}
+
+#header .scrollbar .thumb .end,
+#header .scrollbar .thumb .end {
+    cursor: pointer;
+}
+#header .scrollbar .track .scrollbar-track-inner {
+    background: rgba(255, 255, 255, 0.2);
+}
+#header .scrollbar .track .scrollbar-track-inner .scrollbar-content-inner {
+    background: rgba(255, 255, 255, 1);
+}
+
+
+/*barra de fundo para outros*/
+.custom-scroll.y .scrollbar .track .scrollbar-track-inner,
+.custom-scroll.x .scrollbar .track .scrollbar-track-inner {
+    background-color: rgba(74, 39, 110, 0.4);
+}
+/*barra  para outros*/
+.custom-scroll.y .scrollbar .scrollbar-content-inner,
+.custom-scroll.x .scrollbar .thumb {
+    background-color: #000000;
+}
+
+.gallery-slider .wrap-flying-information .white .custom-scroll.y .scrollbar .track .scrollbar-track-inner,
+.gallery-slider .wrap-flying-information .white .custom-scroll.x .scrollbar .track .scrollbar-track-inner {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.gallery-slider .wrap-flying-information .black .custom-scroll.y .scrollbar .track .scrollbar-track-inner,
+.gallery-slider .wrap-flying-information .black .custom-scroll.x .scrollbar .track .scrollbar-track-inner {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*componentes*/
+.image-background-element.white .custom-scroll.y .scrollbar .track .scrollbar-track-inner,
+.video-background-element.white .custom-scroll.y .scrollbar .track .scrollbar-track-inner {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.image-background-element.black .custom-scroll.y .scrollbar .track .scrollbar-track-inner,
+.video-background-element.black .custom-scroll.y .scrollbar .track .scrollbar-track-inner {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* .ico div.icon,*/
+
+.link-color,
+#header-resp a,
+#header a {
+    color: #ffffff;
+}
+
+#wrapper-header-resp.layout1 .modal-menu-resp .filter-wrap .bg-filter,
+#wrapper-header-resp.layout1 .hamburger-fixed-wrapper:not(.opened-menu-modal) .filter-wrap .bg-filter {
+    background-color: rgb(199, 197, 214);
+}
+
+#wrapper-header-resp.layout1 .modal-menu-resp .filter-wrap .menu-filter,
+#wrapper-header-resp.layout1 .hamburger-fixed-wrapper:not(.opened-menu-modal) .filter-wrap .menu-filter {
+    background-color: rgba(74, 39, 110, 1.0);
+}
+
+#wrapper-header-resp.layout1 .hamburger-fixed-wrapper.opened-menu-modal .filter-wrap .bg-filter,
+#wrapper-header-resp.layout1 .hamburger-fixed-wrapper.opened-menu-modal .filter-wrap .menu-filter {
+    background-color: transparent;
+}
+
+body.menu-left #header li.sub a {
+    color: rgba(255, 255, 255, 0.7);
+}
+body.menu-left #header li.sub a:hover {
+    color: #ffffff;
+}
+
+#modal h1,
+#modal h2,
+#modal h1 a,
+#modal h2 a,
+#modal h2.small,
+#modal .title,
+#modal .title2,
+#modal .title-color,
+#content h1,
+#content h2,
+#content h1 a,
+#content h2 a,
+#content h2.small,
+#content .title,
+#content .title2,
+#content .title-color {
+    color: #ffffff;
+}
+
+#modal h3,
+#modal h3 a,
+#modal .subtitle,
+#content h3,
+#content h3 a,
+#content .subtitle {
+    color: #ffffff;
+}
+
+#modal h4,
+#modal h4 a,
+#content h4,
+#content h4 a {
+    color: #ffffff;
+}
+/*#content h4.legend {
+    color: #ffffff !important;
+}*/
+
+#content a.sub-title,
+.sub-title {
+    color: #ffffff !important;
+}
+
+/*#content a,
+#content .text h1,
+#content .text h2,*/
+#content blockquote,
+#content blockquote a,
+#content p,
+#content p a,
+.text,
+.text a,
+.site-color-text,
+.site-color-text:before,
+.site-color-text:after {
+    color: #4a276e;
+}
+.text-color {
+    color: #4a276e !important;
+}
+
+.bg-text-before:before,
+.bg-text-after:after {
+    background-color: #4a276e !important;
+}
+
+.modal-content.modal-payments-manual input {
+    color: #4a276e;
+}
+
+/* PLACEHOLDERS */
+::-webkit-input-placeholder {
+    color: #4a276e;
+}
+:-moz-placeholder {
+    color: #4a276e;
+}
+::-moz-placeholder {
+    color: #4a276e;
+}
+:-ms-input-placeholder {
+    color: #4a276e;
+}
+::placeholder {
+    color: #4a276e;
+}
+
+.bg-website,
+body {
+    background-color: #c7c5d6;
+}
+.bg-website-force,
+.bg-website-after:after,
+.bg-website-before:before {
+    background-color: #c7c5d6 !important;
+}
+
+.bg-menu,
+#header div.bg {
+    background-color: #4a276e;
+
+    opacity: 1.0;
+    filter: alpha(opacity=99); /* IE 7 and Earlier */
+    /* Next 2 lines IE8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    zoom: 1;
+}
+
+.bg-menu-resp {
+    background-color: rgba(74, 39, 110, 1.0);
+}
+
+hr {
+    border-bottom-color: #4a276e;
+}
+
+.cookies-banner-wrapper .inner {
+    background: rgba(74, 39, 110, 0.05);
+}
+
+.cookies-banner-wrapper .inner a {
+    border-bottom: 1px solid #4a276e;
+}
+
+
+body.menu-top .bg-menu,
+body.menu-top #header div.bg {
+    z-index: 0;
+}
+
+body.menu-left .bg-menu,
+body.menu-left #header div.bg {
+    z-index: -1;
+}
+
+
+
+#content .testimonial-wrapper .ico .icon {
+    color: #4a276e;
+    color: rgba(74, 39, 110, .9);
+}
+
+
+/* content */
+#content .ico:not(.simple-ico),
+#global-parts .ico:not(.simple-ico) {
+    -moz-box-shadow: inset 1px 1px 2px rgba(74, 39, 110, .6);
+    -webkit-box-shadow: inset 1px 1px 2px rgba(74, 39, 110, .6);
+    box-shadow: inset 1px 1px 2px rgba(74, 39, 110, .6);
+}
+
+#global-parts .scroll-to-top .ico div.ico-bg {
+    background: #4a276e;
+    background: rgba(74, 39, 110, .8);
+}
+
+#global-parts .scroll-to-top .ico {
+    color: #c7c5d6;
+}
+
+#modal .ico div.ico-bg,
+#modal .ico div.bg,
+#content .ico div.ico-bg,
+#content .ico div.bg,
+#global-parts .ico div.ico-bg,
+#global-parts .ico div.bg {
+    background: #4a276e;
+    background: rgba(74, 39, 110, .6);
+}
+
+#modal .ico .icon,
+#content .ico .icon,
+#global-parts .ico .icon {
+    background: rgba(199, 197, 214, .04);
+}
+
+#modal .ico *,
+#content .ico *,
+#global-parts .ico * {
+    color: #c7c5d6;
+    color: rgba(199, 197, 214, .9);
+}
+
+#modal a.active .ico div.ico-bg,
+#modal a.active .ico div.bg,
+#modal a:hover .ico div.ico-bg,
+#modal a:hover .ico div.bg,
+#content a.active .ico div.ico-bg,
+#content a.active .ico div.bg,
+#content a:hover .ico div.ico-bg,
+#content a:hover .ico div.bg,
+#global-parts a.active .ico div.ico-bg,
+#global-parts a.active .ico div.bg,
+#global-parts a:hover .ico div.ico-bg,
+#global-parts a:hover .ico div.bg {
+    background: rgba(74, 39, 110, .9);
+}
+
+#modal a.active .ico div.icon,
+#modal a:hover .ico div.icon,
+#content a.active .ico div.icon,
+#content a:hover .ico div.icon,
+#global-parts a.active .ico div.icon,
+#global-parts a:hover .ico div.icon {
+    background: rgba(199, 197, 214, .1);
+}
+#modal a.active .ico *,
+#modal a:hover .ico *,
+#content a.active .ico *,
+#content a:hover .ico *,
+#global-parts a.active .ico *,
+#global-parts a:hover .ico * {
+    color: #c7c5d6;
+}
+
+/* header */
+#header .ico,
+#header-resp .menu-ul-wrap .ico {
+    -moz-box-shadow: inset 1px 1px 2px rgba(255, 255, 255, .6);
+    -webkit-box-shadow: inset 1px 1px 2px rgba(255, 255, 255, .6);
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, .6);
+}
+
+#header .ico div.ico-bg,
+#header .ico div.bg,
+#header-resp .menu-ul-wrap .ico div.ico-bg,
+#header-resp .menu-ul-wrap .ico div.bg {
+    background: #ffffff;
+    background: rgba(255, 255, 255, .7);
+}
+
+#header .ico .icon,
+#header-resp .menu-ul-wrap .ico .icon {
+    background: rgba(74, 39, 110, .04);
+}
+
+#header .ico *,
+#header-resp .menu-ul-wrap .ico * {
+    color: #4a276e;
+    color: rgba(74, 39, 110, .9);
+}
+#header a:hover .ico div.ico-bg,
+#header a:hover .ico div.bg,
+#header-resp .menu-ul-wrap a:hover .ico div.ico-bg,
+#header-resp .menu-ul-wrap a:hover .ico div.bg {
+    /*background: rgba(255, 255, 255, .9);*/
+    background: #ffffff;
+}
+
+#header a:hover .ico div.icon,
+#header-resp .menu-ul-wrap a:hover .ico div.icon {
+    background: rgba(74, 39, 110, .1);
+}
+#header a:hover .ico *,
+#header-resp .menu-ul-wrap a:hover .ico * {
+    color: #4a276e;
+}
+
+
+
+
+
+#content .image-effects-component * {
+    color: #ffffff;
+}
+
+.image-effects-component .thumb div.bottom-legend,
+.image-effects-component .thumb .featured-filter,
+.image-effects-component a.square-bottom-info .thumb div.bg-legend-container,
+.image-effects-component a.light-bottom-gradient-info .top-line,
+.image-effects-component a.dark-bottom-gradient-info .top-line,
+.image-effects-component a.light-bottom-gradient-info .top-line {
+    background-color: #000000;
+}
+
+
+/* effect1 */
+
+#header-resp ul.effect1 li a.selected,
+html.pc #header-resp ul.effect1 li a:hover,
+body.menu-left #menu ul.effect1 li a.selected,
+body.menu-left #menu ul.effect1 li a:hover,
+body.menu-top #menu ul.effect1 li a.selected,
+body.menu-top #menu ul.effect1 li a:hover {
+    border-bottom-color: #000000;
+}
+
+/* effect2 */
+
+#header-resp ul.effect2 li a.selected,
+html.pc #header-resp ul.effect2 li a:hover,
+body.menu-left #menu ul.effect2 li a.b.selected,
+body.menu-left #menu ul.effect2 li a.b:hover,
+body.menu-top #menu ul.effect2 li a.b.selected,
+body.menu-top #menu ul.effect2 li a.b:hover {
+    background: #000000;
+}
+
+/* effect3 */
+
+body.menu-left #menu ul.effect3.mobile li a.b,
+body.menu-top #menu ul.effect3.mobile li a.b {
+    background: none;
+}
+
+#header-resp ul.effect3 li a.selected,
+html.pc #header-resp ul.effect3 li a:hover,
+body.menu-left #menu ul.effect3 li a.b.selected,
+body.menu-left #menu ul.effect3 li a.b:hover,
+body.menu-top #menu ul.effect3 li a.b.selected,
+body.menu-top #menu ul.effect3 li a.b:hover {
+    color: #000000;
+}
+
+body.menu-left #menu ul.effect3 li a.b,
+body.menu-top #menu ul.effect3 li a.b {
+    background: #4a276e;
+}
+
+/* effect4 */
+
+body.menu-left #menu ul.effect4.mobile li a.b,
+body.menu-top #menu ul.effect4.mobile li a.b {
+    background: none;
+}
+
+#header-resp ul.effect4 li a.selected,
+html.pc #header-resp ul.effect4 li a:hover,
+body.menu-left #menu ul.effect4 li a.b.selected,
+body.menu-left #menu ul.effect4 li a.b:hover,
+body.menu-top #menu ul.effect4 li a.b.selected,
+body.menu-top #menu ul.effect4 li a.b:hover {
+    color: #4a276e;
+    background: #ffffff;
+}
+
+body.menu-left #menu ul.effect4 li a.b,
+body.menu-top #menu ul.effect4 li a.b {
+    background: #4a276e;
+}
+
+#content .image-effects-component div.square-legend hr {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* effect5 */
+body.menu-left #menu ul.effect5.mobile li a.b,
+body.menu-top #menu ul.effect5.mobile li a.b {
+    background: none;
+}
+
+#header-resp ul.effect5 li a.selected,
+html.pc #header-resp ul.effect5 li a:hover,
+body.menu-left #menu ul.effect5 li a.b.selected,
+body.menu-left #menu ul.effect5 li a.b:hover,
+body.menu-top #menu ul.effect5 li a.b.selected,
+body.menu-top #menu ul.effect5 li a.b:hover {
+    color: #4a276e;
+    background: #ffffff;
+}
+
+body.menu-left #menu ul.effect5 li a.b,
+body.menu-top #menu ul.effect5 li a.b {
+    background: #4a276e;
+}
+
+/* effect6 */
+
+#header-resp ul.effect6 li a.selected,
+html.pc #header-resp ul.effect6 li a:hover,
+body.menu-left #menu ul.effect6 li a.b.selected,
+body.menu-left #menu ul.effect6 li a.b:hover,
+body.menu-top #menu ul.effect6 li a.b.selected,
+body.menu-top #menu ul.effect6 li a.b:hover {
+    color: #000000;
+}
+
+/* effect7 */
+
+#header-resp ul.effect7 li a.selected,
+html.pc #header-resp ul.effect7 li a:hover,
+body.menu-left #menu ul.effect7 li a.b.selected,
+body.menu-left #menu ul.effect7 li a.b:hover,
+body.menu-top #menu ul.effect7 li a.b.selected,
+body.menu-top #menu ul.effect7 li a.b:hover {
+    border: 1px solid #ffffff;
+}
+
+
+/*body.menu-left #menu ul.effect3.mobile li a.b,
+body.menu-top #menu ul.effect3.mobile li a.b,
+body.menu-left #menu ul.effect4.mobile li a.b,
+body.menu-top #menu ul.effect4.mobile li a.b,
+body.menu-left #menu ul.effect5.mobile li a.b,
+body.menu-top #menu ul.effect5.mobile li a.b {
+    background: none;
+}*/
+
+/* BEGIN GHOST EFFECTS */
+#content .ghost-effect {
+    -webkit-transition: border-color 0.4s ease-out, box-shadow 0.4S ease-out, color 0.4s ease-out;
+    -moz-transition: border-color 0.4s ease-out, box-shadow 0.4S ease-out, color 0.4s ease-out;
+    -o-transition: border-color 0.4s ease-out, box-shadow 0.4S ease-out, color 0.4s ease-out;
+    transition: border-color 0.4s ease-out, box-shadow 0.4S ease-out, color 0.4s ease-out;
+
+    -moz-box-shadow: 0px 10px 15px -10px rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0px 10px 15px -10px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 10px 15px -10px rgba(255, 255, 255, 0.2);
+
+    border: 2px solid rgba(255, 255, 255, 0.2);
+
+    color: #ffffff;
+}
+
+#content .ghost-effect:hover {
+    -moz-box-shadow: 0px 15px 30px -10px rgba(255, 255, 255, 0.35);
+    -webkit-box-shadow: 0px 15px 30px -10px rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 15px 30px -10px rgba(255, 255, 255, 0.35);
+
+    border: 2px solid rgba(255, 255, 255, 0.35);
+
+    color: #d8d8d8;
+}
+
+/* END GHOST EFFECTS */
+
+/* Begin QuickContactForm */
+.quick-contact-wrapper .quick-contact-content .quick-contact-container .quick-wrapper-fields {
+    border: 1px solid rgba(74, 39, 110, 0.2);
+}
+
+.quick-contact-wrapper .quick-contact-content .quick-contact-container .quick-wrapper-fields .field:not(.field-textarea) {
+    border-bottom: 1px solid rgba(74, 39, 110, 0.2);
+}
+
+.quick-contact-wrapper .quick-contact-content .quick-contact-container .quick-wrapper-fields .field input,
+.quick-contact-wrapper .quick-contact-content .quick-contact-container .quick-wrapper-fields .field textarea {
+    color: rgba(74, 39, 110, 1) !important;
+}
+
+.generic-form-success-modal .default-color-button-success,
+.quick-contact-wrapper .button-wrapper,
+.integrations-chats .default-color-button,
+.integrations-chats .default-color-button-success,
+.payment-modal-success .default-color-button-success {
+    color: rgba(0, 0, 0, 0.7);
+
+    background-color: #ffffff;
+}
+
+.quick-contact-wrapper .button-wrapper.disabled {
+    background-color: #ffffff !important;
+}
+
+.quick-contact-wrapper .button-wrapper:hover,
+.integrations-chats .default-color-button:hover,
+.integrations-chats .default-color-button.close {
+    background-color: #d8d8d8;
+}
+
+
+
+/* END QuickContact */
+
+/* Begin GenericForm css */
+#content .caption {
+    color: #ffffff;
+}
+
+#modal .form select,
+#modal .form textarea,
+#modal .form input,
+#content .form select,
+#content .form textarea,
+#content .form input {
+    background-color: rgba(74, 39, 110, 0.03);
+    border-color: rgba(74, 39, 110, 0.2);
+}
+
+#modal .form select:hover,
+#modal .form textarea:hover,
+#modal .form input:hover,
+#content .form select:hover,
+#content .form textarea:hover,
+#content .form input:hover {
+    border-color: rgba(74, 39, 110, 0.4);
+    background-color: rgba(74, 39, 110, 0.1);
+}
+
+#modal .form select.active,
+#modal .form textarea.active,
+#modal .form input.active,
+#modal .form input:focus,
+#modal .form select:focus,
+#modal .form textarea:focus,
+#content .form select.active,
+#content .form textarea.active,
+#content .form input.active,
+#content .form input:focus,
+#content .form select:focus,
+#content .form textarea:focus {
+    border-color: rgba(74, 39, 110, 0.6);
+    background-color: rgba(74, 39, 110, 0.1);
+}
+
+.wrap-login .login-dialog {
+    border: 1px solid #4a276e;
+    border: 1px solid rgba(74, 39, 110, 0.2);
+}
+
+a.simple-button,
+a.negative-color,
+#modal .form .submit,
+#modal .simple-button,
+#modal .button-wrapper.round-button,
+#global-parts .form .submit,
+#content .form .submit,
+#content .simple-button,
+#content .button-wrapper.round-button {
+    color: #000000;
+
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+a.simple-button:hover,
+a.negative-color:hover,
+#modal .form .submit:hover,
+#modal .simple-button:hover,
+#modal .button-wrapper.round-button:hover,
+#global-parts .form .submit:hover,
+#content .form .submit:hover,
+#content .simple-button:hover,
+#content .button-wrapper.round-button:hover {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#modal .text-body-buttons,
+#modal .button-wrapper.text-button,
+#modal .button-wrapper.ghost,
+#content .text-body-buttons,
+#content .button-wrapper.text-button,
+#content .button-wrapper.ghost {
+    color: #ffffff;
+}
+
+#modal .button-wrapper.text-button:hover,
+#modal .button-wrapper.ghost:hover,
+#content .button-wrapper.text-button:hover,
+#content .button-wrapper.ghost:hover {
+    color: #d8d8d8;
+}
+
+#modal .form .error select,
+#modal .form .error textarea,
+#modal .form .error input,
+#content .form .error select,
+#content .form .error textarea,
+#content .form .error input {
+    background-color: #4a276e;
+    background-color: rgba(74, 39, 110, 0.7);
+}
+
+#modal .form .error-msg,
+#content .form .error-msg {
+    color: #c7c5d6;
+}
+ /*End GenericForm css */
+
+/* Init Manual Form Payment */
+
+    #content .modal-payments-manual .form .error-msg {
+        color: #c7c5d6;
+        background-color: #4a276e;
+        background-color: rgba(74, 39, 110, 0.7);
+    }
+
+    #content .modal-payments-manual .form .error select,
+    #content .modal-payments-manual .form .error textarea,
+    #content .modal-payments-manual .form .error input {
+        border-color: rgba(74, 39, 110, 0.4);
+        background-color: rgba(74, 39, 110, 0.1);
+    }
+
+/* End Manual Form Payment */
+
+.modal-wrapper .modal-dialog .modal-content.simple-text .inner-modal-content {
+    background-color: #c7c5d6;
+}
+
+.modal-wrapper .modal-dialog .modal-footer {
+    background-color: #c7c5d6;
+    border-top: 1px solid #4a276e;
+    border-top: 1px solid rgba(74, 39, 110, 0.2);
+}
+.modal-wrapper .modal-dialog .modal-footer .inner-modal-footer {
+    background-color: rgba(74, 39, 110, 0.03);
+}
+
+.__react_component_tooltip.type-dark.tooltip {
+    background-color: #4a276e;
+    color: #c7c5d6;
+}
+
+.__react_component_tooltip.type-dark.tooltip.place-top:after {
+    border-top-color: #4a276e;
+}
+
+.__react_component_tooltip.type-dark.tooltip.place-bottom:after {
+    border-bottom-color: #4a276e;
+}
+
+.__react_component_tooltip.type-dark.tooltip.place-left:after {
+    border-left-color: #4a276e;
+}
+
+.__react_component_tooltip.type-dark.tooltip.place-right:after {
+    border-right-color: #4a276e;
+}
+
+.highlight {
+    color: #000000 !important;
+}
+
+.highlight-bg {
+    background-color: #000000 !important;
+}
+
+.button-bg {
+    background-color: #ffffff !important;
+}
+
+.button-color {
+    color: #ffffff !important;
+}
+
+.modal-wrapper .modal-dialog.generic-form-success-modal .button-contrast *,
+.button-contrast {
+    color: #000000;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+ul.carousel-bullets li span:not(.active):hover {
+    background-color: #4a276e;
+}
+
+/* ================================================================= */
+
+#content .input.radio .circle, .dynamic-color-border {
+    border-color: #4a276e;
+}
+
+#content .input.radio .circle .dot {
+    background-color: #4a276e;
+}
+
+.rangeslider-horizontal .rangeslider__fill,
+.rangeslider .rangeslider__handle {
+  background: #c7c5d6;
+}
+
+.rangeslider-horizontal:after {
+  background-color: rgba(199, 197, 214, 0.4);
+}  

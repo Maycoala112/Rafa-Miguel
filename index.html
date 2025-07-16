@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-website">
+    <header id="header" class="bg-menu">
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section class="image-effects-component">
+            <div class="thumb">
+                <div class="bottom-legend">
+                    <h3>Imagem com Efeito</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal-wrapper">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="inner-modal-content">
+                        <h2>Modal de Exemplo</h2>
+                        <p>Este é um exemplo de modal.</p>
+                        <button class="simple-button">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <section class="quick-contact-wrapper">
+            <div class="quick-contact-content">
+                <div class="quick-contact-container">
+                    <div class="quick-wrapper-fields">
+                        <div class="field">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="Seu nome">
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Seu email">
+                        </div>
+                        <div class="field">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <div class="button-wrapper">
+                            <button class="simple-button">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-menu-resp">
+        <p>&copy; 2025 Exemplo de Site</p>
+    </footer>
+
+    <script>
+        // Adicionar evento para o botão de fechar modal
+        document.querySelector('.simple-button').addEventListener('click', function() {
+            document.getElementById('modal').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
